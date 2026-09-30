@@ -10,8 +10,15 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ActionPlanRouteImport } from './routes/action-plan'
+import { Route as ChecklistRouteImport } from './routes/checklist'
 import { Route as ContextRouteImport } from './routes/context'
+import { Route as DashboardRouteImport } from './routes/dashboard'
+import { Route as EarlyExitRouteImport } from './routes/early-exit'
+import { Route as FindingsRouteImport } from './routes/findings'
+import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as ReadingRouteImport } from './routes/reading'
+import { Route as SummaryRouteImport } from './routes/summary'
 import { Route as UploadRouteImport } from './routes/upload'
 
 const IndexRoute = IndexRouteImport.update({
@@ -19,14 +26,49 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ActionPlanRoute = ActionPlanRouteImport.update({
+  id: '/action-plan',
+  path: '/action-plan',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ChecklistRoute = ChecklistRouteImport.update({
+  id: '/checklist',
+  path: '/checklist',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ContextRoute = ContextRouteImport.update({
   id: '/context',
   path: '/context',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DashboardRoute = DashboardRouteImport.update({
+  id: '/dashboard',
+  path: '/dashboard',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EarlyExitRoute = EarlyExitRouteImport.update({
+  id: '/early-exit',
+  path: '/early-exit',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FindingsRoute = FindingsRouteImport.update({
+  id: '/findings',
+  path: '/findings',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ReadingRoute = ReadingRouteImport.update({
   id: '/reading',
   path: '/reading',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SummaryRoute = SummaryRouteImport.update({
+  id: '/summary',
+  path: '/summary',
   getParentRoute: () => rootRouteImport,
 } as any)
 const UploadRoute = UploadRouteImport.update({
@@ -37,35 +79,97 @@ const UploadRoute = UploadRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/action-plan': typeof ActionPlanRoute
+  '/checklist': typeof ChecklistRoute
   '/context': typeof ContextRoute
+  '/dashboard': typeof DashboardRoute
+  '/early-exit': typeof EarlyExitRoute
+  '/findings': typeof FindingsRoute
+  '/privacy': typeof PrivacyRoute
   '/reading': typeof ReadingRoute
+  '/summary': typeof SummaryRoute
   '/upload': typeof UploadRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/action-plan': typeof ActionPlanRoute
+  '/checklist': typeof ChecklistRoute
   '/context': typeof ContextRoute
+  '/dashboard': typeof DashboardRoute
+  '/early-exit': typeof EarlyExitRoute
+  '/findings': typeof FindingsRoute
+  '/privacy': typeof PrivacyRoute
   '/reading': typeof ReadingRoute
+  '/summary': typeof SummaryRoute
   '/upload': typeof UploadRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/action-plan': typeof ActionPlanRoute
+  '/checklist': typeof ChecklistRoute
   '/context': typeof ContextRoute
+  '/dashboard': typeof DashboardRoute
+  '/early-exit': typeof EarlyExitRoute
+  '/findings': typeof FindingsRoute
+  '/privacy': typeof PrivacyRoute
   '/reading': typeof ReadingRoute
+  '/summary': typeof SummaryRoute
   '/upload': typeof UploadRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/context' | '/reading' | '/upload'
+  fullPaths:
+    | '/'
+    | '/action-plan'
+    | '/checklist'
+    | '/context'
+    | '/dashboard'
+    | '/early-exit'
+    | '/findings'
+    | '/privacy'
+    | '/reading'
+    | '/summary'
+    | '/upload'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/context' | '/reading' | '/upload'
-  id: '__root__' | '/' | '/context' | '/reading' | '/upload'
+  to:
+    | '/'
+    | '/action-plan'
+    | '/checklist'
+    | '/context'
+    | '/dashboard'
+    | '/early-exit'
+    | '/findings'
+    | '/privacy'
+    | '/reading'
+    | '/summary'
+    | '/upload'
+  id:
+    | '__root__'
+    | '/'
+    | '/action-plan'
+    | '/checklist'
+    | '/context'
+    | '/dashboard'
+    | '/early-exit'
+    | '/findings'
+    | '/privacy'
+    | '/reading'
+    | '/summary'
+    | '/upload'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ActionPlanRoute: typeof ActionPlanRoute
+  ChecklistRoute: typeof ChecklistRoute
   ContextRoute: typeof ContextRoute
+  DashboardRoute: typeof DashboardRoute
+  EarlyExitRoute: typeof EarlyExitRoute
+  FindingsRoute: typeof FindingsRoute
+  PrivacyRoute: typeof PrivacyRoute
   ReadingRoute: typeof ReadingRoute
+  SummaryRoute: typeof SummaryRoute
   UploadRoute: typeof UploadRoute
 }
 
@@ -78,6 +182,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/action-plan': {
+      id: '/action-plan'
+      path: '/action-plan'
+      fullPath: '/action-plan'
+      preLoaderRoute: typeof ActionPlanRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/checklist': {
+      id: '/checklist'
+      path: '/checklist'
+      fullPath: '/checklist'
+      preLoaderRoute: typeof ChecklistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/context': {
       id: '/context'
       path: '/context'
@@ -85,11 +203,46 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContextRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dashboard': {
+      id: '/dashboard'
+      path: '/dashboard'
+      fullPath: '/dashboard'
+      preLoaderRoute: typeof DashboardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/early-exit': {
+      id: '/early-exit'
+      path: '/early-exit'
+      fullPath: '/early-exit'
+      preLoaderRoute: typeof EarlyExitRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/findings': {
+      id: '/findings'
+      path: '/findings'
+      fullPath: '/findings'
+      preLoaderRoute: typeof FindingsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/reading': {
       id: '/reading'
       path: '/reading'
       fullPath: '/reading'
       preLoaderRoute: typeof ReadingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/summary': {
+      id: '/summary'
+      path: '/summary'
+      fullPath: '/summary'
+      preLoaderRoute: typeof SummaryRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/upload': {
@@ -104,8 +257,15 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ActionPlanRoute: ActionPlanRoute,
+  ChecklistRoute: ChecklistRoute,
   ContextRoute: ContextRoute,
+  DashboardRoute: DashboardRoute,
+  EarlyExitRoute: EarlyExitRoute,
+  FindingsRoute: FindingsRoute,
+  PrivacyRoute: PrivacyRoute,
   ReadingRoute: ReadingRoute,
+  SummaryRoute: SummaryRoute,
   UploadRoute: UploadRoute,
 }
 export const routeTree = rootRouteImport

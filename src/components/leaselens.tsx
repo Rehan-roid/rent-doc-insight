@@ -42,7 +42,7 @@ export function Navbar({ landing = false }: { landing?: boolean }) {
           {links.map(([label, href]) => href.startsWith("/#") ? (
             <a key={label} href={href} className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">{label}</a>
           ) : (
-            <Link key={label} to={href} className={cn("text-sm font-medium transition-colors hover:text-foreground", path === href ? "text-foreground" : "text-muted-foreground")}>{label}</Link>
+            <Link key={label} to={href as (typeof appLinks)[number][1] | "/privacy"} className={cn("text-sm font-medium transition-colors hover:text-foreground", path === href ? "text-foreground" : "text-muted-foreground")}>{label}</Link>
           ))}
         </nav>
         <div className="hidden md:block">
@@ -50,7 +50,7 @@ export function Navbar({ landing = false }: { landing?: boolean }) {
         </div>
         <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setOpen((value) => !value)} aria-label="Toggle navigation">{open ? <X /> : <Menu />}</Button>
       </div>
-      {open && <nav className="border-t border-border px-4 py-4 md:hidden">{links.map(([label, href]) => href.startsWith("/#") ? <a key={label} href={href} className="block py-3 text-sm font-medium" onClick={() => setOpen(false)}>{label}</a> : <Link key={label} to={href} className="block py-3 text-sm font-medium" onClick={() => setOpen(false)}>{label}</Link>)}</nav>}
+      {open && <nav className="border-t border-border px-4 py-4 md:hidden">{links.map(([label, href]) => href.startsWith("/#") ? <a key={label} href={href} className="block py-3 text-sm font-medium" onClick={() => setOpen(false)}>{label}</a> : <Link key={label} to={href as (typeof appLinks)[number][1] | "/privacy"} className="block py-3 text-sm font-medium" onClick={() => setOpen(false)}>{label}</Link>)}</nav>}
     </header>
   );
 }
