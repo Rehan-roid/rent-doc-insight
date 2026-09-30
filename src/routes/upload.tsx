@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { DisclaimerBanner, Logo } from "@/components/leaselens";
 
 export const Route = createFileRoute("/upload")({
-  validateSearch: (search: Record<string, unknown>): { mode?: "paste" | "upload" } => ({ mode: search["mode"] === "paste" ? "paste" : undefined }),
+  validateSearch: (search: Record<string, unknown>): { mode?: "paste" | "upload" | undefined } => ({ mode: search["mode"] === "paste" ? "paste" : undefined }),
   head: () => ({ meta: [
     { title: "Upload your agreement — LeaseLens" }, { name: "description", content: "Choose a rental agreement PDF or paste its text for the LeaseLens demo." },
     { property: "og:title", content: "Upload your agreement — LeaseLens" }, { property: "og:description", content: "Start a calm, clear review of your rental agreement." },
