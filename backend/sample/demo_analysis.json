@@ -1,0 +1,1036 @@
+{
+  "document": {
+    "analysis_id": "c90f5b1b5bce2031",
+    "filename": "demo_agreement.txt",
+    "page_count": null,
+    "clauses": [
+      {
+        "id": "c1",
+        "label": "1",
+        "title": null,
+        "text": "1. Term of License\nThe Licensor hereby grants unto the Licensee the leave and license to occupy and use the Scheduled Premises for a fixed period of eleven (11) months commencing from 1st May 2026 to 31st March 2027.",
+        "start": 1176,
+        "end": 1394
+      },
+      {
+        "id": "c2",
+        "label": "2",
+        "title": null,
+        "text": "2. Monthly Rent and Payment Date\nThe Licensee shall pay to the Licensor a monthly license fee (rent) of Rupees Eighteen Thousand (Rs. 18,000/-) per month. The monthly rent shall be payable in advance on or before the 5th day of each English calendar month directly into the Licensor's bank account.",
+        "start": 1394,
+        "end": 1694
+      },
+      {
+        "id": "c3",
+        "label": "3",
+        "title": null,
+        "text": "3. Security Deposit and Deductions\nThe Licensee has deposited with the Licensor an interest-free refundable security deposit of Rupees Fifty Thousand (Rs. 50,000/-) upon signing this agreement. The Licensor shall be entitled to deduct from the security deposit all costs associated with repainting the premises, deep cleaning charges, pending utility bills, and any damage caused to fixtures and fittings.",
+        "start": 1694,
+        "end": 2101
+      },
+      {
+        "id": "c4",
+        "label": "4",
+        "title": null,
+        "text": "4. Minimum Stay and Lock-in Period\n4.1 The Licensee agrees to occupy the premises for the full agreed duration.\n4.2 There shall be a strict lock-in period of six (6) months from the commencement date. If the Licensee vacates or terminates the license during this lock-in period, the Licensee shall remain liable to pay the balance rent for the remaining period of the lock-in.",
+        "start": 2101,
+        "end": 2479
+      },
+      {
+        "id": "c5",
+        "label": "5",
+        "title": null,
+        "text": "5. Utilities and Maintenance Charges\nThe Licensee shall directly pay the electricity charges according to the meter reading, gas consumption bills, and internet charges. Society maintenance charges of Rs. 2,500 per month shall be paid by the Licensee along with the monthly rent.",
+        "start": 2479,
+        "end": 2760
+      },
+      {
+        "id": "c6",
+        "label": "6",
+        "title": null,
+        "text": "6. Use and Subletting\nThe Scheduled Premises shall be used solely for private residential purposes by the Licensee. The Licensee shall not assign, sublet, underlet, or transfer the possession of the premises or any part thereof to any third party under any circumstances.",
+        "start": 2760,
+        "end": 3033
+      },
+      {
+        "id": "c7",
+        "label": "7",
+        "title": null,
+        "text": "7. Notice of Termination\n7.1 Clause 7.1: Subject to Clause 4.2, either party may terminate this agreement after the completion of the lock-in period by serving sixty (60) days prior written notice to the other party.",
+        "start": 3033,
+        "end": 3251
+      },
+      {
+        "id": "c8",
+        "label": "8",
+        "title": null,
+        "text": "8. Right of Entry and Inspection\nThe Licensor and his authorised representatives shall be entitled to enter and inspect the Scheduled Premises at any time to verify the condition and maintenance of the property.",
+        "start": 3251,
+        "end": 3464
+      },
+      {
+        "id": "c9",
+        "label": "9",
+        "title": null,
+        "text": "9. Early Vacating and Notice Requirements\n9.1 The Licensee shall deliver vacant possession of the premises upon expiry of the license.\n9.2 Any delay in handing over possession shall attract liquidated damages of Rs. 1,000 per day.\n9.3 Clause 9.3: In the event the Licensee wishes to vacate the premises after the lock-in period, the Licensee shall provide one month's notice in writing to the Licensor.",
+        "start": 3464,
+        "end": 3868
+      },
+      {
+        "id": "c10",
+        "label": "10",
+        "title": null,
+        "text": "10. Repairs, Upkeep, and Damage Liability\nThe Licensee shall be responsible for all repairs, replacement of bulbs, taps, fixtures, and day-to-day upkeep of the premises. Any loss, breakage, or damage occurring to the furniture, appliances, or walls during the period of occupation shall be borne entirely by the Licensee.",
+        "start": 3868,
+        "end": 4191
+      },
+      {
+        "id": "c11",
+        "label": "11",
+        "title": null,
+        "text": "11. Rent Escalation and Renewal\nIf both parties mutually agree in writing to renew this license upon the expiry of the eleven-month term, the monthly rent shall automatically increase by five percent (5%) over the previous monthly rent for the renewed term.",
+        "start": 4191,
+        "end": 4450
+      },
+      {
+        "id": "c12",
+        "label": "12",
+        "title": null,
+        "text": "12. Indemnity, Waiver, and Jurisdiction\nThe Licensee hereby agrees to indemnify and hold harmless the Licensor against all claims, liabilities, damages, and legal costs arising from the Licensee's use of the Scheduled Premises. The Licensee unconditionally waives any right to dispute the deduction of damage repairs determined by the Licensor. Any dispute arising out of this agreement shall be subject to the exclusive jurisdiction of the competent civil courts at Bengaluru.\n\nIN WITNESS WHEREOF, the parties hereto have signed and executed this Leave and License Agreement on the date and year first hereinabove written.\n\nLICENSOR:\nMr. Rajesh Sharma\n\nLICENSEE:\nMs. Ananya Verma",
+        "start": 4450,
+        "end": 5130
+      }
+    ]
+  },
+  "context_notes": [
+    {
+      "text": "Because you selected flexibility as your priority, related terms are highlighted first.",
+      "clause_ids": []
+    },
+    {
+      "text": "You selected a stay under 6 months. Worth confirming how early exit and notice periods work if you need to leave early.",
+      "clause_ids": []
+    },
+    {
+      "text": "For students, deposit deductions and sudden lock-in penalties are common pain points. Double-check refund timelines.",
+      "clause_ids": []
+    }
+  ],
+  "key_terms": [
+    {
+      "type": "rent",
+      "status": "found",
+      "label": "Monthly Rent",
+      "value": "\u20b918,000",
+      "numeric_value": 18000.0,
+      "unit": "INR",
+      "evidence": {
+        "clause_id": "c2",
+        "clause_label": "2",
+        "quote": "2.",
+        "start": 1394,
+        "end": 1396
+      },
+      "question": null
+    },
+    {
+      "type": "deposit",
+      "status": "found",
+      "label": "Security Deposit",
+      "value": "\u20b950,000",
+      "numeric_value": 50000.0,
+      "unit": "INR",
+      "evidence": {
+        "clause_id": "c3",
+        "clause_label": "3",
+        "quote": "3.",
+        "start": 1694,
+        "end": 1696
+      },
+      "question": null
+    },
+    {
+      "type": "lock_in",
+      "status": "found",
+      "label": "Lock-in Period",
+      "value": "6 months",
+      "numeric_value": 6.0,
+      "unit": "months",
+      "evidence": {
+        "clause_id": "c4",
+        "clause_label": "4",
+        "quote": "4.",
+        "start": 2101,
+        "end": 2103
+      },
+      "question": null
+    },
+    {
+      "type": "notice",
+      "status": "found",
+      "label": "Notice Period",
+      "value": "60 days",
+      "numeric_value": 60.0,
+      "unit": "days",
+      "evidence": {
+        "clause_id": "c7",
+        "clause_label": "7",
+        "quote": "7.",
+        "start": 3033,
+        "end": 3035
+      },
+      "question": null
+    },
+    {
+      "type": "repairs",
+      "status": "not_specified",
+      "label": "Repairs",
+      "value": "Not specified",
+      "numeric_value": null,
+      "unit": null,
+      "evidence": null,
+      "question": null
+    },
+    {
+      "type": "escalation",
+      "status": "found",
+      "label": "Rent Escalation",
+      "value": "5.0%",
+      "numeric_value": 5.0,
+      "unit": "percent",
+      "evidence": {
+        "clause_id": "c11",
+        "clause_label": "11",
+        "quote": "11.",
+        "start": 4191,
+        "end": 4194
+      },
+      "question": null
+    },
+    {
+      "type": "term",
+      "status": "found",
+      "label": "Agreement Term",
+      "value": "11 months",
+      "numeric_value": 11.0,
+      "unit": "months",
+      "evidence": {
+        "clause_id": "c1",
+        "clause_label": "1",
+        "quote": "1.",
+        "start": 1176,
+        "end": 1178
+      },
+      "question": null
+    }
+  ],
+  "missing": [
+    {
+      "item": "deposit_refund_timeline",
+      "label": "Deposit Refund Timeline",
+      "note": "Not specified in this agreement.",
+      "question": "Within how many days will the deposit be returned after I vacate, and how will any deductions be itemised and agreed?"
+    }
+  ],
+  "findings": [
+    {
+      "id": "finding-2",
+      "label": "discuss",
+      "plain_english": "This clause sets out a lock-in period in 4.",
+      "tenant_impact": "Leaving before the lock-in period ends may involve paying rent for the remaining period.",
+      "question": "What is the exact financial obligation if I need to leave before the lock-in completes?",
+      "needs_professional": false,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "clause_id": "c4",
+          "clause_label": "4",
+          "quote": "4.",
+          "start": 2101,
+          "end": 2103
+        }
+      ],
+      "linked_interaction_id": "456ec7fdd852"
+    },
+    {
+      "id": "finding-4",
+      "label": "discuss",
+      "plain_english": "This clause sets out a lock-in period in 7.",
+      "tenant_impact": "Leaving before the lock-in period ends may involve paying rent for the remaining period.",
+      "question": "What is the exact financial obligation if I need to leave before the lock-in completes?",
+      "needs_professional": false,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "clause_id": "c7",
+          "clause_label": "7",
+          "quote": "7.",
+          "start": 3033,
+          "end": 3035
+        }
+      ],
+      "linked_interaction_id": "456ec7fdd852"
+    },
+    {
+      "id": "finding-6",
+      "label": "discuss",
+      "plain_english": "This clause sets out a lock-in period in 9.",
+      "tenant_impact": "Leaving before the lock-in period ends may involve paying rent for the remaining period.",
+      "question": "What is the exact financial obligation if I need to leave before the lock-in completes?",
+      "needs_professional": false,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "clause_id": "c9",
+          "clause_label": "9",
+          "quote": "9.",
+          "start": 3464,
+          "end": 3466
+        }
+      ],
+      "linked_interaction_id": "456ec7fdd852"
+    },
+    {
+      "id": "finding-1",
+      "label": "clarify",
+      "plain_english": "This clause allows deductions from the security deposit in 3.",
+      "tenant_impact": "Deductions for painting, cleaning, or damages are permitted, but the specific standard of wear and tear is not detailed.",
+      "question": "How are move-out deductions itemised, and is fair wear and tear excluded?",
+      "needs_professional": false,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "clause_id": "c3",
+          "clause_label": "3",
+          "quote": "3.",
+          "start": 1694,
+          "end": 1696
+        }
+      ],
+      "linked_interaction_id": "06cf822f7f88"
+    },
+    {
+      "id": "finding-3",
+      "label": "clarify",
+      "plain_english": "This clause specifies maintenance and repair duties in 5.",
+      "tenant_impact": "Day-to-day versus major structural repairs may need clearer demarcation.",
+      "question": "Who bears the cost for major electrical, plumbing, or structural repairs?",
+      "needs_professional": false,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "clause_id": "c5",
+          "clause_label": "5",
+          "quote": "5.",
+          "start": 2479,
+          "end": 2481
+        }
+      ],
+      "linked_interaction_id": "6f1fc348b4cc"
+    },
+    {
+      "id": "finding-5",
+      "label": "clarify",
+      "plain_english": "This clause specifies maintenance and repair duties in 8.",
+      "tenant_impact": "Day-to-day versus major structural repairs may need clearer demarcation.",
+      "question": "Who bears the cost for major electrical, plumbing, or structural repairs?",
+      "needs_professional": false,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "clause_id": "c8",
+          "clause_label": "8",
+          "quote": "8.",
+          "start": 3251,
+          "end": 3253
+        }
+      ],
+      "linked_interaction_id": "06cf822f7f88"
+    },
+    {
+      "id": "finding-7",
+      "label": "clarify",
+      "plain_english": "This clause specifies maintenance and repair duties in 10.",
+      "tenant_impact": "Day-to-day versus major structural repairs may need clearer demarcation.",
+      "question": "Who bears the cost for major electrical, plumbing, or structural repairs?",
+      "needs_professional": false,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "clause_id": "c10",
+          "clause_label": "10",
+          "quote": "10.",
+          "start": 3868,
+          "end": 3871
+        }
+      ],
+      "linked_interaction_id": "6f1fc348b4cc"
+    },
+    {
+      "id": "finding-8",
+      "label": "clarify",
+      "plain_english": "This clause specifies maintenance and repair duties in 12.",
+      "tenant_impact": "Day-to-day versus major structural repairs may need clearer demarcation.",
+      "question": "Who bears the cost for major electrical, plumbing, or structural repairs?",
+      "needs_professional": false,
+      "confidence": "medium",
+      "evidence": [
+        {
+          "clause_id": "c12",
+          "clause_label": "12",
+          "quote": "12.",
+          "start": 4450,
+          "end": 4453
+        }
+      ],
+      "linked_interaction_id": "06cf822f7f88"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "456ec7fdd852",
+      "pattern": "early_exit",
+      "title": "Early Exit",
+      "chain": [
+        {
+          "step": "lock_in",
+          "label": "Lock-in period",
+          "status": "found",
+          "clause_ids": [
+            "c4",
+            "c7",
+            "c9"
+          ]
+        },
+        {
+          "step": "notice",
+          "label": "Notice period",
+          "status": "found",
+          "clause_ids": [
+            "c7",
+            "c9"
+          ]
+        },
+        {
+          "step": "early_termination",
+          "label": "Early termination clause",
+          "status": "not_specified",
+          "clause_ids": []
+        },
+        {
+          "step": "penalty",
+          "label": "Penalty or cost",
+          "status": "found",
+          "clause_ids": [
+            "c4",
+            "c9"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "clause_id": "c4",
+          "clause_label": "4",
+          "quote": "4.",
+          "start": 2101,
+          "end": 2103
+        },
+        {
+          "clause_id": "c7",
+          "clause_label": "7",
+          "quote": "7.",
+          "start": 3033,
+          "end": 3035
+        },
+        {
+          "clause_id": "c9",
+          "clause_label": "9",
+          "quote": "9.",
+          "start": 3464,
+          "end": 3466
+        }
+      ],
+      "explanation": "These clauses relate to each other and may affect when, and at what cost, you can leave. Worth clarifying how they work together.",
+      "question": "If I need to leave before the lock-in ends, what exact amount would I owe, and how does the notice period apply?",
+      "needs_professional": false,
+      "calculation": {
+        "available": true,
+        "currency": "INR",
+        "reason_unavailable": null,
+        "default_leave_after_months": 4,
+        "exposure_by_month": [
+          {
+            "leave_after_months": 1,
+            "amount": 90000,
+            "formula": "5 remaining months \u00d7 \u20b918,000"
+          },
+          {
+            "leave_after_months": 2,
+            "amount": 72000,
+            "formula": "4 remaining months \u00d7 \u20b918,000"
+          },
+          {
+            "leave_after_months": 3,
+            "amount": 54000,
+            "formula": "3 remaining months \u00d7 \u20b918,000"
+          },
+          {
+            "leave_after_months": 4,
+            "amount": 36000,
+            "formula": "2 remaining months \u00d7 \u20b918,000"
+          },
+          {
+            "leave_after_months": 5,
+            "amount": 18000,
+            "formula": "1 remaining month \u00d7 \u20b918,000"
+          },
+          {
+            "leave_after_months": 6,
+            "amount": 0,
+            "formula": "No remaining lock-in period"
+          }
+        ],
+        "assumptions": [
+          "Uses monthly rent of \u20b918,000 (2).",
+          "Counts only the remaining lock-in months of the 6-month lock-in.",
+          "Does not include any other charges, taxes or deductions."
+        ],
+        "wording": "Potential financial exposure based only on the stated agreement terms."
+      }
+    },
+    {
+      "id": "06cf822f7f88",
+      "pattern": "deposit_return",
+      "title": "Deposit Return",
+      "chain": [
+        {
+          "step": "deposit",
+          "label": "Security deposit",
+          "status": "found",
+          "clause_ids": [
+            "c3"
+          ]
+        },
+        {
+          "step": "deductions",
+          "label": "Deposit deductions",
+          "status": "found",
+          "clause_ids": [
+            "c3",
+            "c12"
+          ]
+        },
+        {
+          "step": "refund",
+          "label": "Deposit refund",
+          "status": "found",
+          "clause_ids": [
+            "c3"
+          ]
+        },
+        {
+          "step": "inspection",
+          "label": "Move-out inspection",
+          "status": "found",
+          "clause_ids": [
+            "c8"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "clause_id": "c8",
+          "clause_label": "8",
+          "quote": "8.",
+          "start": 3251,
+          "end": 3253
+        },
+        {
+          "clause_id": "c3",
+          "clause_label": "3",
+          "quote": "3.",
+          "start": 1694,
+          "end": 1696
+        },
+        {
+          "clause_id": "c12",
+          "clause_label": "12",
+          "quote": "12.",
+          "start": 4450,
+          "end": 4453
+        }
+      ],
+      "explanation": "The agreement covers deductions from the deposit but may not say when it is returned or how the flat's condition is checked. Worth clarifying.",
+      "question": "Within how many days will the deposit be returned after I vacate, and how will deductions be itemised and agreed?",
+      "needs_professional": false,
+      "calculation": null
+    },
+    {
+      "id": "ce0874a27976",
+      "pattern": "rent_growth",
+      "title": "Rent Growth",
+      "chain": [
+        {
+          "step": "escalation",
+          "label": "Rent escalation",
+          "status": "found",
+          "clause_ids": [
+            "c11"
+          ]
+        },
+        {
+          "step": "renewal",
+          "label": "Renewal terms",
+          "status": "found",
+          "clause_ids": [
+            "c11"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "clause_id": "c11",
+          "clause_label": "11",
+          "quote": "11.",
+          "start": 4191,
+          "end": 4194
+        }
+      ],
+      "explanation": "The agreement addresses rent increases together with renewal. Worth clarifying what the rent would be after renewal.",
+      "question": "What will the rent be after renewal, and how is any increase decided?",
+      "needs_professional": false,
+      "calculation": null
+    },
+    {
+      "id": "6f1fc348b4cc",
+      "pattern": "repair_burden",
+      "title": "Repair Burden",
+      "chain": [
+        {
+          "step": "repairs",
+          "label": "Repairs",
+          "status": "found",
+          "clause_ids": [
+            "c5",
+            "c8",
+            "c10",
+            "c12"
+          ]
+        },
+        {
+          "step": "damage_liability",
+          "label": "Damage liability",
+          "status": "found",
+          "clause_ids": [
+            "c3",
+            "c9",
+            "c10",
+            "c12"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "clause_id": "c8",
+          "clause_label": "8",
+          "quote": "8.",
+          "start": 3251,
+          "end": 3253
+        },
+        {
+          "clause_id": "c10",
+          "clause_label": "10",
+          "quote": "10.",
+          "start": 3868,
+          "end": 3871
+        },
+        {
+          "clause_id": "c9",
+          "clause_label": "9",
+          "quote": "9.",
+          "start": 3464,
+          "end": 3466
+        },
+        {
+          "clause_id": "c5",
+          "clause_label": "5",
+          "quote": "5.",
+          "start": 2479,
+          "end": 2481
+        }
+      ],
+      "explanation": "Repairs and damage responsibility appear together. Worth clarifying which repairs the tenant pays for and which the landlord does.",
+      "question": "Which repairs are my responsibility, which are yours, and is there a cost limit?",
+      "needs_professional": false,
+      "calculation": null
+    },
+    {
+      "id": "c20034ef585d",
+      "pattern": "entry_privacy",
+      "title": "Entry & Privacy",
+      "chain": [
+        {
+          "step": "entry",
+          "label": "Landlord entry",
+          "status": "found",
+          "clause_ids": [
+            "c8"
+          ]
+        },
+        {
+          "step": "entry_notice_or_permission",
+          "label": "Notice / permission",
+          "status": "not_specified",
+          "clause_ids": []
+        }
+      ],
+      "evidence": [
+        {
+          "clause_id": "c8",
+          "clause_label": "8",
+          "quote": "8.",
+          "start": 3251,
+          "end": 3253
+        }
+      ],
+      "explanation": "The agreement allows the landlord to enter the premises but does not clearly specify notice or permission. Worth clarifying.",
+      "question": "Can we agree that entry happens only with advance notice and at a convenient time, except in emergencies?",
+      "needs_professional": false,
+      "calculation": null
+    }
+  ],
+  "inconsistencies": [
+    {
+      "id": "inconsistency-notice-c7-c9",
+      "kind": "notice_period",
+      "description": "The agreement contains two different notice periods: 'sixty (60) days prior written notice' in 7 and 'one month's notice' in 9. Worth clarifying which notice period applies.",
+      "evidence": [
+        {
+          "clause_id": "c7",
+          "clause_label": "7",
+          "quote": "sixty (60) days prior written notice",
+          "start": 3193,
+          "end": 3229
+        },
+        {
+          "clause_id": "c9",
+          "clause_label": "9",
+          "quote": "one month's notice",
+          "start": 3820,
+          "end": 3838
+        }
+      ]
+    },
+    {
+      "id": "inconsistency-rent-c2-c5",
+      "kind": "rent_amount",
+      "description": "Different rent amounts are mentioned: 'Rs. 18,000' in 2 and 'Rs. 2,500' in 5. Worth clarifying the agreed monthly rent.",
+      "evidence": [
+        {
+          "clause_id": "c2",
+          "clause_label": "2",
+          "quote": "Rs. 18,000",
+          "start": 1524,
+          "end": 1534
+        },
+        {
+          "clause_id": "c5",
+          "clause_label": "5",
+          "quote": "Rs. 2,500",
+          "start": 2680,
+          "end": 2689
+        }
+      ]
+    }
+  ],
+  "action_plan": [
+    {
+      "id": "act-inter-early_exit-9425ab6da597",
+      "source": "interaction",
+      "label": "discuss",
+      "priority": "must_ask",
+      "question": "If I need to leave before the lock-in ends, what exact amount would I owe, and how does the notice period apply?",
+      "landlord_message": "Hi, before signing I wanted to clarify one point regarding early exit. If I need to leave before the lock-in ends, what exact amount would I owe, and how does the notice period apply?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c4",
+        "c7",
+        "c9"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-inter-deposit_return-0f83fc3fba83",
+      "source": "interaction",
+      "label": "discuss",
+      "priority": "must_ask",
+      "question": "Within how many days will the deposit be returned after I vacate, and how will deductions be itemised and agreed?",
+      "landlord_message": "Hi, before signing I wanted to clarify one point regarding deposit return. Within how many days will the deposit be returned after I vacate, and how will deductions be itemised and agreed?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c12",
+        "c3",
+        "c8"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-inter-rent_growth-f4baf901d1b9",
+      "source": "interaction",
+      "label": "discuss",
+      "priority": "must_ask",
+      "question": "What will the rent be after renewal, and how is any increase decided?",
+      "landlord_message": "Hi, before signing I wanted to clarify one point regarding rent growth. What will the rent be after renewal, and how is any increase decided?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c11"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-inter-repair_burden-52c956bfbfdc",
+      "source": "interaction",
+      "label": "discuss",
+      "priority": "must_ask",
+      "question": "Which repairs are my responsibility, which are yours, and is there a cost limit?",
+      "landlord_message": "Hi, before signing I wanted to clarify one point regarding repair burden. Which repairs are my responsibility, which are yours, and is there a cost limit?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c10",
+        "c5",
+        "c8",
+        "c9"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-inter-entry_privacy-7ed6a8377b92",
+      "source": "interaction",
+      "label": "discuss",
+      "priority": "must_ask",
+      "question": "Can we agree that entry happens only with advance notice and at a convenient time, except in emergencies?",
+      "landlord_message": "Hi, before signing I wanted to clarify one point regarding entry & privacy. Can we agree that entry happens only with advance notice and at a convenient time, except in emergencies?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c8"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-missing-deposit_refund_timeline",
+      "source": "missing",
+      "label": "clarify",
+      "priority": "must_ask",
+      "question": "Within how many days will the deposit be returned after I vacate, and how will any deductions be itemised and agreed?",
+      "landlord_message": "Hi, could you please clarify one point that wasn't mentioned in the draft? Within how many days will the deposit be returned after I vacate, and how will any deductions be itemised and agreed?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-find-3dbd87f39460",
+      "source": "finding",
+      "label": "discuss",
+      "priority": "must_ask",
+      "question": "What is the exact financial obligation if I need to leave before the lock-in completes?",
+      "landlord_message": "Hi, before signing I wanted to check the clause regarding this clause sets out a lock-in period in 4 (Clause c4). What is the exact financial obligation if I need to leave before the lock-in completes?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c4"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-find-f62b0bab98e3",
+      "source": "finding",
+      "label": "discuss",
+      "priority": "must_ask",
+      "question": "What is the exact financial obligation if I need to leave before the lock-in completes?",
+      "landlord_message": "Hi, before signing I wanted to check the clause regarding this clause sets out a lock-in period in 7 (Clause c7). What is the exact financial obligation if I need to leave before the lock-in completes?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c7"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-find-df87129d0a07",
+      "source": "finding",
+      "label": "discuss",
+      "priority": "must_ask",
+      "question": "What is the exact financial obligation if I need to leave before the lock-in completes?",
+      "landlord_message": "Hi, before signing I wanted to check the clause regarding this clause sets out a lock-in period in 9 (Clause c9). What is the exact financial obligation if I need to leave before the lock-in completes?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c9"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-find-7183ccb3a56f",
+      "source": "finding",
+      "label": "clarify",
+      "priority": "nice_to_ask",
+      "question": "How are move-out deductions itemised, and is fair wear and tear excluded?",
+      "landlord_message": "Hi, before signing I wanted to check the clause regarding this clause allows deductions from the security deposit in 3 (Clause c3). How are move-out deductions itemised, and is fair wear and tear excluded?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c3"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-find-6531b9f7de8a",
+      "source": "finding",
+      "label": "clarify",
+      "priority": "nice_to_ask",
+      "question": "Who bears the cost for major electrical, plumbing, or structural repairs?",
+      "landlord_message": "Hi, before signing I wanted to check the clause regarding this clause specifies maintenance and repair duties in 5 (Clause c5). Who bears the cost for major electrical, plumbing, or structural repairs?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c5"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-find-cf3e9f43e24f",
+      "source": "finding",
+      "label": "clarify",
+      "priority": "nice_to_ask",
+      "question": "Who bears the cost for major electrical, plumbing, or structural repairs?",
+      "landlord_message": "Hi, before signing I wanted to check the clause regarding this clause specifies maintenance and repair duties in 10 (Clause c10). Who bears the cost for major electrical, plumbing, or structural repairs?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c10"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    },
+    {
+      "id": "act-find-e52d56578685",
+      "source": "finding",
+      "label": "clarify",
+      "priority": "nice_to_ask",
+      "question": "Who bears the cost for major electrical, plumbing, or structural repairs?",
+      "landlord_message": "Hi, before signing I wanted to check the clause regarding this clause specifies maintenance and repair duties in 12 (Clause c12). Who bears the cost for major electrical, plumbing, or structural repairs?",
+      "fallback": "If the answer is given verbally, please confirm it in writing (message, email or addendum).",
+      "clause_ids": [
+        "c12"
+      ],
+      "needs_professional": false,
+      "status": "not_asked"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "chk-before-rent",
+      "group": "before_signing",
+      "text": "Confirm monthly rent and payment date",
+      "checked": false
+    },
+    {
+      "id": "chk-before-deposit",
+      "group": "before_signing",
+      "text": "Confirm security deposit amount",
+      "checked": false
+    },
+    {
+      "id": "chk-before-refund-timeline",
+      "group": "before_signing",
+      "text": "Confirm deposit refund timeline in writing",
+      "checked": false
+    },
+    {
+      "id": "chk-before-lockin",
+      "group": "before_signing",
+      "text": "Confirm lock-in period and early-exit terms",
+      "checked": false
+    },
+    {
+      "id": "chk-before-notice",
+      "group": "before_signing",
+      "text": "Confirm notice period required for termination",
+      "checked": false
+    },
+    {
+      "id": "chk-before-repairs",
+      "group": "before_signing",
+      "text": "Confirm repair and maintenance responsibilities",
+      "checked": false
+    },
+    {
+      "id": "chk-before-written",
+      "group": "before_signing",
+      "text": "Get all agreed changes or clarifications in writing",
+      "checked": false
+    },
+    {
+      "id": "chk-before-signed-copy",
+      "group": "before_signing",
+      "text": "Keep a fully signed copy of the final agreement",
+      "checked": false
+    },
+    {
+      "id": "chk-before-early-exit-written",
+      "group": "before_signing",
+      "text": "Get exact early-exit calculation or waiver confirmed in writing",
+      "checked": false
+    },
+    {
+      "id": "chk-before-entry-notice",
+      "group": "before_signing",
+      "text": "Request written notice requirement (e.g. 24 hours) for landlord visits",
+      "checked": false
+    },
+    {
+      "id": "chk-movein-deposit-receipt",
+      "group": "move_in",
+      "text": "Obtain receipt for security deposit payment",
+      "checked": false
+    },
+    {
+      "id": "chk-movein-photos",
+      "group": "move_in",
+      "text": "Take date-stamped photos of property condition and any existing damage",
+      "checked": false
+    },
+    {
+      "id": "chk-movein-meters",
+      "group": "move_in",
+      "text": "Record initial utility meter readings (electricity, water, gas)",
+      "checked": false
+    },
+    {
+      "id": "chk-movein-inventory",
+      "group": "move_in",
+      "text": "Complete joint inventory check for furniture, fixtures, and appliances",
+      "checked": false
+    }
+  ],
+  "meta": {
+    "analysis_version": "1.0",
+    "prompt_version": "1.0.0",
+    "mode": "deterministic_only",
+    "disclaimer": "This explains the document. It isn't legal advice.",
+    "notices": [
+      "Analysis completed using deterministic rules (LLM analysis unavailable)."
+    ],
+    "validation": {
+      "quotes_verified": 30,
+      "quotes_recovered": 0,
+      "items_dropped": 0,
+      "guardrail_replacements": 0
+    }
+  }
+}

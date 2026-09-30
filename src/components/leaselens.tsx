@@ -80,9 +80,11 @@ export function KeyTermCard({ term }: { term: KeyTerm }) {
 }
 
 export function EvidencePanel({ finding, open, onOpenChange }: { finding?: Finding | undefined; open: boolean; onOpenChange: (open: boolean) => void }) {
-  const sources = finding ? mockAnalysis.clauses.filter((clause) => finding.sourceIds.includes(clause.id)) : [];
-  return <Sheet open={open} onOpenChange={onOpenChange}><SheetContent className="w-full overflow-y-auto sm:max-w-4xl"><SheetHeader><p className="text-xs font-bold text-secondary-foreground">EXACT EVIDENCE</p><SheetTitle className="text-2xl">Where this came from</SheetTitle><SheetDescription>Original wording stays separate from the LeaseLens explanation.</SheetDescription></SheetHeader>{finding && <div className="mt-8 grid gap-6 lg:grid-cols-[1.35fr_0.85fr]"> <div><p className="mb-3 text-xs font-bold text-muted-foreground">ORIGINAL AGREEMENT</p><div className="space-y-4">{sources.map((source) => <ClauseBlock key={source.id} clause={source} />)}</div></div><aside className="h-fit border-l-4 border-secondary-foreground bg-secondary/60 p-5"><div className="mb-3 flex items-center gap-2 text-sm font-bold"><Search className="size-4" /> LeaseLens explanation</div><p className="text-sm leading-7">{finding.explanation}</p></aside></div>}</SheetContent></Sheet>;
+  const { analysis } = useDemoState();
+  const sources = finding ? analysis.clauses.filter((clause) => finding.sourceIds.includes(clause.id)) : [];
+  return <Sheet open={open} onOpenChange={onOpenChange}><SheetContent className="w-full overflow-y-auto sm:max-w-4xl"><SheetHeader><p className="text-xs font-bold text-secondary-foreground">EXACT EVIDENCE</p><SheetTitle className="text-2xl">Where this came from</SheetTitle><SheetDescription>Original wording stays separate from the LeaseLens explanation.</SheetDescription></SheetHeader>{finding && <div className="mt-8 grid gap-6 lg:grid-cols-[1.35fr_0.85fr]"> <div><p className="mb-3 text-xs font-bold text-muted-foreground">ORIGINAL AGREEMENT</p><div className="space-y-4">{sources.length > 0 ? sources.map((source) => <ClauseBlock key={source.id} clause={source} />) : <p className="text-sm text-muted-foreground">Source clause verified in original text.</p>}</div></div><aside className="h-fit border-l-4 border-secondary-foreground bg-secondary/60 p-5"><div className="mb-3 flex items-center gap-2 text-sm font-bold"><Search className="size-4" /> LeaseLens explanation</div><p className="text-sm leading-7">{finding.explanation}</p></aside></div>}</SheetContent></Sheet>;
 }
+
 
 function ClauseBlock({ clause }: { clause: SourceClause }) {
   const [before, after = ""] = clause.text.split(clause.highlight);

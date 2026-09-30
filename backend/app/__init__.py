@@ -1,0 +1,1 @@
+"""LeaseLens backend — FastAPI application."""
