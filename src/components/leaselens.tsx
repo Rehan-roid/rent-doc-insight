@@ -26,7 +26,7 @@ export function Logo({ compact = false }: { compact?: boolean }) {
 }
 
 const appLinks = [
-  ["Dashboard", "/dashboard"], ["Findings", "/findings"], ["Action plan", "/action-plan"],
+  ["Dashboard", "/dashboard"], ["Findings", "/findings"], ["Early exit", "/early-exit"], ["Action plan", "/action-plan"],
   ["Checklist", "/checklist"], ["Summary", "/summary"],
 ] as const;
 
@@ -42,7 +42,7 @@ export function Navbar({ landing = false }: { landing?: boolean }) {
           {links.map(([label, href]) => href.startsWith("/#") ? (
             <a key={label} href={href} className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">{label}</a>
           ) : (
-            <Link key={label} to={href} className={cn("text-sm font-medium transition-colors hover:text-foreground", path === href ? "text-foreground" : "text-muted-foreground")}>{label}</Link>
+            <Link key={label} to={href as (typeof appLinks)[number][1] | "/privacy"} className={cn("text-sm font-medium transition-colors hover:text-foreground", path === href ? "text-foreground" : "text-muted-foreground")}>{label}</Link>
           ))}
         </nav>
         <div className="hidden md:block">
@@ -50,7 +50,7 @@ export function Navbar({ landing = false }: { landing?: boolean }) {
         </div>
         <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setOpen((value) => !value)} aria-label="Toggle navigation">{open ? <X /> : <Menu />}</Button>
       </div>
-      {open && <nav className="border-t border-border px-4 py-4 md:hidden">{links.map(([label, href]) => href.startsWith("/#") ? <a key={label} href={href} className="block py-3 text-sm font-medium" onClick={() => setOpen(false)}>{label}</a> : <Link key={label} to={href} className="block py-3 text-sm font-medium" onClick={() => setOpen(false)}>{label}</Link>)}</nav>}
+      {open && <nav className="border-t border-border px-4 py-4 md:hidden">{links.map(([label, href]) => href.startsWith("/#") ? <a key={label} href={href} className="block py-3 text-sm font-medium" onClick={() => setOpen(false)}>{label}</a> : <Link key={label} to={href as (typeof appLinks)[number][1] | "/privacy"} className="block py-3 text-sm font-medium" onClick={() => setOpen(false)}>{label}</Link>)}</nav>}
     </header>
   );
 }
@@ -79,7 +79,7 @@ export function KeyTermCard({ term }: { term: KeyTerm }) {
   return <article className={cn("min-h-32 border border-border bg-card p-5", term.status === "attention" && "border-attention-foreground/30 bg-attention/45")}><p className="text-xs font-semibold text-muted-foreground">{term.label}</p><p className={cn("mt-2 text-xl font-bold", term.status === "attention" && "text-attention-foreground")}>{term.value}</p>{term.note && <p className="mt-3 text-xs leading-5 text-attention-foreground">{term.note}</p>}</article>;
 }
 
-export function EvidencePanel({ finding, open, onOpenChange }: { finding?: Finding; open: boolean; onOpenChange: (open: boolean) => void }) {
+export function EvidencePanel({ finding, open, onOpenChange }: { finding?: Finding | undefined; open: boolean; onOpenChange: (open: boolean) => void }) {
   const sources = finding ? mockAnalysis.clauses.filter((clause) => finding.sourceIds.includes(clause.id)) : [];
   return <Sheet open={open} onOpenChange={onOpenChange}><SheetContent className="w-full overflow-y-auto sm:max-w-4xl"><SheetHeader><p className="text-xs font-bold text-secondary-foreground">EXACT EVIDENCE</p><SheetTitle className="text-2xl">Where this came from</SheetTitle><SheetDescription>Original wording stays separate from the LeaseLens explanation.</SheetDescription></SheetHeader>{finding && <div className="mt-8 grid gap-6 lg:grid-cols-[1.35fr_0.85fr]"> <div><p className="mb-3 text-xs font-bold text-muted-foreground">ORIGINAL AGREEMENT</p><div className="space-y-4">{sources.map((source) => <ClauseBlock key={source.id} clause={source} />)}</div></div><aside className="h-fit border-l-4 border-secondary-foreground bg-secondary/60 p-5"><div className="mb-3 flex items-center gap-2 text-sm font-bold"><Search className="size-4" /> LeaseLens explanation</div><p className="text-sm leading-7">{finding.explanation}</p></aside></div>}</SheetContent></Sheet>;
 }
