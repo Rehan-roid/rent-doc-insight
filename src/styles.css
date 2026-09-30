@@ -60,29 +60,48 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-teal: var(--brand-teal);
+  --color-brand-cyan: var(--brand-cyan);
+  --color-brand-mint: var(--brand-mint);
+  --color-brand-purple: var(--brand-purple);
+  --color-brand-warning: var(--brand-warning);
+  --color-brand-deep-teal: var(--brand-deep-teal);
 }
 
 :root {
-  --radius: 0.5rem;
-  --background: oklch(0.982 0.008 85);
-  --foreground: oklch(0.23 0.04 252);
-  --card: oklch(0.997 0.003 85);
-  --card-foreground: oklch(0.23 0.04 252);
-  --popover: oklch(0.997 0.003 85);
-  --popover-foreground: oklch(0.23 0.04 252);
-  --primary: oklch(0.29 0.075 252);
-  --primary-foreground: oklch(0.99 0.003 85);
-  --secondary: oklch(0.92 0.027 174);
-  --secondary-foreground: oklch(0.29 0.055 174);
-  --muted: oklch(0.95 0.009 80);
-  --muted-foreground: oklch(0.49 0.025 252);
-  --accent: oklch(0.92 0.027 174);
-  --accent-foreground: oklch(0.27 0.055 174);
+  --radius: 1rem;
+
+  /* LeaseLens brand palette (navy / blue / teal / cyan / mint / purple / warning) */
+  --brand-navy: oklch(0.288 0.082 253.6); /* #062B52 */
+  --brand-blue: oklch(0.388 0.097 247.8); /* #0B4775 */
+  --brand-teal: oklch(0.707 0.12 189.2); /* #13B8B0 */
+  --brand-cyan: oklch(0.797 0.126 191.1); /* #38D6D0 */
+  --brand-mint: oklch(0.925 0.059 176.4); /* #BDF4E5 */
+  --brand-purple: oklch(0.595 0.188 284.4); /* #7667E8 */
+  --brand-warning: oklch(0.735 0.161 58.8); /* #F28C28 */
+  --brand-deep-teal: oklch(0.486 0.082 188.1); /* #0B6E68 */
+
+  --background: oklch(0.981 0.005 247.9);
+  --foreground: oklch(0.288 0.082 253.6);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.288 0.082 253.6);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.288 0.082 253.6);
+  --primary: oklch(0.288 0.082 253.6);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.925 0.055 176.4);
+  --secondary-foreground: oklch(0.486 0.082 188.1);
+  --muted: oklch(0.96 0.008 248);
+  --muted-foreground: oklch(0.469 0.045 255.7);
+  --accent: oklch(0.925 0.055 176.4);
+  --accent-foreground: oklch(0.486 0.082 188.1);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.88 0.014 85);
-  --input: oklch(0.86 0.016 85);
-  --ring: oklch(0.56 0.09 174);
+  --border: oklch(0.929 0.013 251.5);
+  --input: oklch(0.9 0.015 252);
+  --ring: oklch(0.707 0.12 189.2);
   --success: oklch(0.93 0.04 151);
   --success-foreground: oklch(0.35 0.09 151);
   --attention: oklch(0.94 0.055 82);
@@ -183,4 +202,17 @@
   [data-no-print] { display: none !important; }
   body { background: var(--card); }
   main { padding: 0 !important; }
+}
+
+/* Soft, wide shadows used by the dashboard surfaces in the design reference. */
+@utility shadow-surface {
+  box-shadow: 0 22px 50px -40px oklch(0.288 0.082 253.6 / 0.55);
+}
+
+@utility shadow-raised {
+  box-shadow: 0 26px 54px -34px oklch(0.288 0.082 253.6 / 0.5);
+}
+
+@utility shadow-sidebar {
+  box-shadow: 0 30px 70px -40px oklch(0.288 0.082 253.6 / 0.55);
 }
