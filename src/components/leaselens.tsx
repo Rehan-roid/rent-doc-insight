@@ -26,7 +26,7 @@ export function Logo({ compact = false }: { compact?: boolean }) {
 }
 
 const appLinks = [
-  ["Dashboard", "/dashboard"], ["Findings", "/findings"], ["Action plan", "/action-plan"],
+  ["Dashboard", "/dashboard"], ["Findings", "/findings"], ["Early exit", "/early-exit"], ["Action plan", "/action-plan"],
   ["Checklist", "/checklist"], ["Summary", "/summary"],
 ] as const;
 
